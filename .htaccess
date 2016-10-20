@@ -1,0 +1,6 @@
+#AuthType Basic
+#AuthName "Member Only"
+#AuthUserFile C:/xampp/htdocs/pricekaiser_animate/htdocs/.htpasswd
+#require valid-user
+
+php_value include_path ".;C:\xampp\htdocs\wedding;C:\xampp\php\PEAR"
